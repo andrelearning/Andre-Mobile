@@ -22,33 +22,33 @@ export class HomePage {
         
 
         const data = [{
-            name: 'Paulo Henrique Bezerra',
-            idade: '28 anos',
+            name: 'Andre Pereira Martins',
+            idade: '20 anos',
             frase: 'Se não lembro não fiz',
-            image: 'assets/icon/profile.jpg',
+            image: 'assets/icon/profile.png',
             ocupacao: '"Estuda" no Senac',
             raca: 'Humano'
         },
         {
-            name: 'Paulo Henrique Bezerra 2',
-            idade: '28 anos 2',
+            name: 'Andre Pereira Martins 2',
+            idade: '20 anos 2',
             frase: 'Se não lembro não fiz',
-            image: 'assets/icon/profile.jpg',
+            image: 'assets/icon/profile.png',
             ocupacao: '"Estuda" no Senac',
             raca: 'Humano'
         }];
 
         const hobbies = [{
-            'hobbie': 'Lanchão'
+            'hobbie': 'Trilhas'
         },
         {
-            'hobbie': 'Fotografias'
+            'hobbie': 'Cinema'
         },
         {
             'hobbie': 'Viagem'
         },
         {
-            "hobbie": 'Carros'
+            "hobbie": 'Baladas'
         },
         {
             "hobbie": 'Games'
@@ -67,7 +67,7 @@ export class HomePage {
         console.log('cheguei aqui');
 
         const foto = [{
-            image: 'assets/icon/profile.jpg',
+            image: 'assets/icon/profile.png',
         }];
 
         const fototela = this.myModal.create("FotoPage", { foto: foto})
@@ -79,13 +79,13 @@ export class HomePage {
     /*mostrarModal() {
   
       this.navCtrl.push(ModalPage, {
-        name: 'Paulo Henrique Bezerra',
-        idade: '28 anos',
+        name: 'Andre Pereira Martins',
+        idade: '20 anos',
         frase: 'Se não lembro não fiz',
-        image: 'assets/icon/profile.jpg',
+        image: 'assets/icon/profile.png',
         ocupacao: '"Estuda" no Senac',
         raca: 'Humano',
-        hobbies: 'Lanchão, Fotos, Viagem, Carros'
+        hobbies: 'Trilhas, Cinema, Baladas, Series'
       });
   
     }*/

@@ -23,7 +23,7 @@ export class ContatosPage {
                 });
         }
         enviarSMS() {
-                this.sms.send('11981997228', this.recado.value['mensagem']+
+                this.sms.send('11960772689', this.recado.value['mensagem']+
                 " Atenciosamente: "+this.recado.value['remetente']);
 
         }
@@ -31,7 +31,7 @@ export class ContatosPage {
 
         ligarCelular() {
 
-                this.call.callNumber("11981997228", true)
+                this.call.callNumber("11960772689", true)
                         .then(res => console.log('Abrindo Discagem', res))
                         .catch(err => console.log('Erro abrindo discagem', err));
 
@@ -39,7 +39,7 @@ export class ContatosPage {
         }
         ligarFixo() {
 
-                this.call.callNumber("1156633514", true)
+                this.call.callNumber("1156622819", true)
                         .then(res => console.log('Abrindo Discagem', res))
                         .catch(err => console.log('Erro abrindo discagem', err));
 

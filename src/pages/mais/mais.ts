@@ -24,12 +24,12 @@ export class MaisPage {
 
   novoEmail(){
       let email = {
-        to: 'pauloh2012sul@gmail.com',
+        to: 'andremartins98@hotmail.com',
         cc: '',
         bcc: [''],
         attachments: [''
         ],
-        subject: 'Olá Paulo',
+        subject: 'Olá André',
         body: '',
         isHtml: true
       };
